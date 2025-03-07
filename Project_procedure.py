@@ -8,8 +8,8 @@ KAFKA_TOPIC = "weather-data"
 KAFKA_SERVER = "localhost:9092"
 
 # OpenWeatherMap API Configuration (replace with your API Key)
-API_KEY = "c22cc35dd0753c6863896e8078fa26d0"  # Replace with your API key
-CITIES = ["Delhi", "New York", "London", "Tokyo"]
+API_KEY = "You api in Double qoutes"  # Replace with your API key
+CITIES = ["Delhi", "New York", "London", "Tokyo"]#can add more citis if you want 
 
 # Initialize Kafka Producer
 producer = KafkaProducer(
